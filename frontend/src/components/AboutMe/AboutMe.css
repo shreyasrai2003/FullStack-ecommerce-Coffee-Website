@@ -1,0 +1,47 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+.about-me h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 2rem;
+  color: #0076bd;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+}
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  text-align: left;
+  margin: 20px;
+  min-width: 100%;
+}
+
+.fun-fact {
+  font-style: italic;
+  color: red;
+  min-width: 60%;
+}

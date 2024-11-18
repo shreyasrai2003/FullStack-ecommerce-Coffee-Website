@@ -1,0 +1,130 @@
+.navbar {
+  background-color: #001f3f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0.09);
+  height: 10vh;
+}
+
+.nav-logo,
+p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 80px;
+  max-width: 120px;
+  min-width: 60px;
+  padding: 1%;
+}
+
+.nav-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 26px;
+  color: #000;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.navbar a:visited {
+  color: inherit;
+}
+
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
+}
+
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background-color: #522617;
+}
+
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.nav-login-cart button {
+  width: 157px;
+  height: 58px;
+  outline: none;
+  border: 1px solid #3b2617;
+  border-radius: 75px;
+  color: #291814;
+  font-size: 20px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+}
+
+.nav-login-cart button:active {
+  background: #001f3f;
+}
+
+.nav-login-cart img {
+  width: 30px;
+  height: auto;
+}
+
+.nav-cart-count {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -35px;
+  margin-left: -55px;
+  border-radius: 11px;
+  font-size: 14px;
+  background-color: red;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .nav-menu {
+    margin-top: 20px;
+    gap: 20px;
+    font-size: 16px;
+  }
+
+  .nav-login-cart button {
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .nav-login-cart img {
+    width: 25px;
+  }
+
+  .nav-cart-count {
+    width: 20px;
+    height: 20px;
+    margin-top: -30px;
+    margin-left: -50px;
+    font-size: 12px;
+  }
+}
